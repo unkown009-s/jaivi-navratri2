@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Jaivi 🪔</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         CINEMATIC BACKGROUND
+    ========================================== -->
+
+    <div id="background">
+
+        <div class="aurora aurora-1"></div>
+        <div class="aurora aurora-2"></div>
+        <div class="aurora aurora-3"></div>
+
+        <div class="stars"></div>
+
+        <div class="particle-field"></div>
+
+        <div class="mandala mandala-1"></div>
+        <div class="mandala mandala-2"></div>
+
+        <div class="floating-diyas">
+
+            <div class="bg-diya d1">🪔</div>
+            <div class="bg-diya d2">🪔</div>
+            <div class="bg-diya d3">🪔</div>
+            <div class="bg-diya d4">🪔</div>
+            <div class="bg-diya d5">🪔</div>
+            <div class="bg-diya d6">🪔</div>
+            <div class="bg-diya d7">🪔</div>
+            <div class="bg-diya d8">🪔</div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         INTRO
+    ========================================== -->
+
+    <section id="intro">
+
+        <div class="intro-vignette"></div>
+
+        <div class="intro-center">
+
+            <div class="intro-diya">
+                🪔
+            </div>
+
+            <div class="intro-ring"></div>
+
+            <p class="intro-small">
+                A LITTLE SOMETHING FOR YOU
+            </p>
+
+            <h1 id="introText"></h1>
+
+            <div class="intro-loading">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         MAIN EXPERIENCE
+    ========================================== -->
+
+    <main id="experience" class="hidden">
+
+
+        <!-- =====================================
+             HERO
+        ====================================== -->
+
+        <section class="hero">
+
+            <div class="hero-glow"></div>
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    NAVRATRI • 2026
+                </span>
+
+                <h1>
+                    You Were<br>
+                    <span>Here.</span>
+                </h1>
+
+                <p>
+                    Some memories deserve more than a photo.
+                </p>
+
+                <div class="scroll-indicator">
+
+                    <span>SCROLL TO REMEMBER</span>
+
+                    <div class="scroll-line"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             MEMORY ONE
+        ====================================== -->
+
+        <section class="memory cinematic-memory">
+
+            <div class="memory-number">
+                01
+            </div>
+
+            <img
+                src="assets/photos/jaivi1.png"
+                alt="Navratri memory"
+            >
+
+            <div class="image-overlay"></div>
+
+            <div class="memory-content">
+
+                <span class="chapter">
+                    LAST NAVRATRI
+                </span>
+
+                <h2>
+                    It's been one whole year.
+                </h2>
+
+                <p>
+                    And we never thought that night
+                    would become our last Navratri together.
+                </p>
+
+                <div class="memory-divider"></div>
+
+                <p class="gold">
+                    Last Navratri…
+                </p>
+
+                <p>
+                    we didn't know these moments
+                    would become memories.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             INTERACTIVE DIYA GAME
+        ====================================== -->
+
+        <section class="memory-game">
+
+            <div class="game-orb"></div>
+
+            <div class="game-content">
+
+                <span class="chapter">
+                    MEMORY GAME
+                </span>
+
+                <h2>
+                    Light the memories.
+                </h2>
+
+                <p class="game-subtitle">
+                    Nine little lights.
+                    Nine little pieces of that night.
+                </p>
+
+
+                <div class="memory-diyas">
+
+                    <button class="memory-diya"
+                            data-memory="The laughs">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The dancing">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The madness">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The music">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The late nights">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The random talks">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The group">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya"
+                            data-memory="The memories">
+                        🪔
+                    </button>
+
+                    <button class="memory-diya special-diya"
+                            data-memory="And you.">
+                        🪔
+                    </button>
+
+                </div>
+
+
+                <div id="memoryText">
+                    <span>Choose a light.</span>
+                </div>
+
+
+                <div class="progress">
+
+                    <div id="progressBar"></div>
+
+                </div>
+
+
+                <button id="continueButton" class="hidden">
+                    CONTINUE THE MEMORY →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             MEMORY TWO
+        ====================================== -->
+
+        <section class="memory cinematic-memory">
+
+            <div class="memory-number">
+                02
+            </div>
+
+            <img
+                src="assets/photos/jaivi2.png"
+                alt="Navratri memory"
+            >
+
+            <div class="image-overlay"></div>
+
+            <div class="memory-content">
+
+                <span class="chapter">
+                    THE SAME MADNESS
+                </span>
+
+                <h2>
+                    The same music.
+                </h2>
+
+                <p>
+                    The same madness.
+                </p>
+
+                <p>
+                    The same people.
+                </p>
+
+                <p>
+                    And obviously…
+                </p>
+
+                <p class="funny">
+                    you talking about your new crushes
+                    every time we met 😂
+                </p>
+
+                <div class="memory-divider"></div>
+
+                <p>
+                    Seriously…
+                </p>
+
+                <p class="gold">
+                    who is going to tell us
+                    all the new crush stories now?
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             MEMORY THREE
+        ====================================== -->
+
+        <section class="memory cinematic-memory">
+
+            <div class="memory-number">
+                03
+            </div>
+
+            <img
+                src="assets/photos/jaivi3.png"
+                alt="Navratri memory"
+            >
+
+            <div class="image-overlay"></div>
+
+            <div class="memory-content">
+
+                <span class="chapter">
+                    WITHOUT YOU
+                </span>
+
+                <h2>
+                    Why did you have to go?
+                </h2>
+
+                <p>
+                    Now the circle is going to feel
+                    a little too quiet without you.
+                </p>
+
+                <p class="gold">
+                    It's just not going to be the same.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             JAIVI REVEAL
+        ====================================== -->
+
+        <section class="jaivi-reveal">
+
+            <div class="green-energy"></div>
+
+            <div class="reveal-particles"></div>
+
+            <div class="reveal-ring ring-one"></div>
+            <div class="reveal-ring ring-two"></div>
+            <div class="reveal-ring ring-three"></div>
+
+            <div class="reveal-content">
+
+                <span class="chapter">
+                    BUT THERE'S ONE PERSON MISSING…
+                </span>
+
+                <p>
+                    You already know who.
+                </p>
+
+                <h1>
+                    JAIVI
+                </h1>
+
+                <div class="heart">
+                    💚
+                </div>
+
+                <p class="reveal-bottom">
+                    Because the circle isn't complete without you.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             DISTANCE
+        ====================================== -->
+
+        <section class="distance">
+
+            <div class="distance-glow"></div>
+
+            <div class="distance-content">
+
+                <div class="giant-diya">
+                    🪔
+                </div>
+
+                <span class="chapter">
+                    DISTANCE
+                </span>
+
+                <h2>
+                    You may be in India…
+                </h2>
+
+                <p>
+                    …but you're still part of our Navratri.
+                </p>
+
+                <div class="distance-line"></div>
+
+                <p>
+                    Because distance can change
+                    the picture…
+                </p>
+
+                <p class="gold">
+                    …but it can't change the memories.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FINAL MESSAGE
+        ====================================== -->
+
+        <section class="final">
+
+            <div class="final-light"></div>
+
+            <div class="final-content">
+
+                <span class="chapter">
+                    ONE LAST THING
+                </span>
+
+                <h2>
+                    We remember you.
+                </h2>
+
+                <p>
+                    And we miss having you here.
+                </p>
+
+                <h3>
+                    Happy Navratri, Jaivi 🪩✨
+                </h3>
+
+                <p class="small">
+                    Until the circle is complete again. ❤️
+                </p>
+
+                <button id="revealMemories">
+                    ONE MORE THING →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FINAL PHOTO EXPERIENCE
+        ====================================== -->
+
+        <section id="finalMemories" class="final-memories hidden">
+
+            <div class="final-title">
+
+                <span>
+                    ONE LAST MEMORY
+                </span>
+
+                <h2>
+                    Same people.
+                </h2>
+
+            </div>
+
+
+            <div class="photo-stage">
+
+                <div class="photo-card card-one">
+
+                    <img
+                        src="assets/photos/jaivi1.png"
+                        alt="Memory one"
+                    >
+
+                </div>
+
+
+                <div class="photo-card card-two">
+
+                    <img
+                        src="assets/photos/jaivi2.png"
+                        alt="Memory two"
+                    >
+
+                </div>
+
+
+                <div class="photo-card card-three">
+
+                    <img
+                        src="assets/photos/jaivi3.png"
+                        alt="Memory three"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="final-message">
+
+                <p>
+                    Same madness.
+                </p>
+
+                <p>
+                    Same memories.
+                </p>
+
+                <p class="gold">
+                    New memories waiting for us.
+                </p>
+
+                <div class="final-diyas">
+                    🪔 🪔 🪔 🪔 🪔
+                </div>
+
+                <p class="end">
+                    Until next Navratri…
+                </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================================
+         MUSIC
+    ========================================== -->
+
+    <audio
+        id="music"
+        src="assets/music/vhalam.mp3"
+        preload="auto">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
